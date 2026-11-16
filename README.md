@@ -16,10 +16,9 @@ source .venv/bin/activate
 ```
 
 
-Run some commands to *install packages*: (idk how to add them to requirements.txt)
+Run some commands to *install packages*: 
 ```
-pip install pydantic-ai  
-pip install "pydantic-ai-slim[groq]"
+pip install -r requirements.txt
 ```
 
 
