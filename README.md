@@ -13,9 +13,6 @@ on mac, do these I guess (idk, I use windows):  <br />
 ```
 python3 -m venv .venv
 source .venv/bin/activate
-python -m pip install -r requirements.txt
-python manual_room.py --demo
-python -m unittest -v test_previous
 ```
 <br />
 
