@@ -17,6 +17,7 @@ python -m pip install -r requirements.txt
 python manual_room.py --demo
 python -m unittest -v test_previous
 ```
+<br />
 
 Run some commands to install packages:
 ```
@@ -26,7 +27,7 @@ pip install "pydantic-ai-slim[groq]"
 
 
 ### Step 2: Model setup
-So far, we're using Groq (not to be confused with Grok). <br />
+Right now, we're using Groq (not to be confused with Grok). <br />
 First, you need to login and setup API keys [here](https://console.groq.com/keys) (make sure to copy/paste them somewhere you can access later)  <br />
 
 Then, enter these commands to set environment variables: <br />
