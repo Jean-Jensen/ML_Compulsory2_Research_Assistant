@@ -8,13 +8,13 @@ on windows, run these commands:  <br />
 py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
-<br />
+
 on mac, do these I guess (idk, I use windows):  <br />
 ```
 python3 -m venv .venv
 source .venv/bin/activate
 ```
-<br />
+
 
 Run some commands to install packages:
 ```
