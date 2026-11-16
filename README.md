@@ -10,7 +10,7 @@ py -3.11 -m venv .venv
 ```
 <br />
 on mac, do these I guess (idk, I use windows):  <br />
-```bash
+```
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -r requirements.txt
@@ -33,11 +33,13 @@ Then, enter these commands to set environment variables: <br />
 Windows: <br />
 ```
 $env:LLM_BASE_URL="https://api.groq.com/openai/v1"
-$env:LLM_MODEL="qwen/qwen3.8-27b"
-$env:LLM_API_KEY="YOUR_API_KEY_HERE"
+$env:LLM_MODEL="groq:qwen/qwen3.8-27b"
+$env:GROQ_API_KEY="YOUR_API_KEY_HERE"
 ```
 Mac: (once again, untested) <br />
 ```
-
+export LLM_BASE_URL="https://api.groq.com/openai/v1"
+export LLM_MODEL="groq:qwen/qwen3.8-27b"
+export GROQ_API_KEY="YOUR_API_KEY_HERE"
 ```
 
