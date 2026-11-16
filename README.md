@@ -40,3 +40,8 @@ export LLM_MODEL="groq:qwen/qwen3.8-27b"
 export GROQ_API_KEY="YOUR_API_KEY_HERE"
 ```
 
+### Step 3: Run program
+run main py file: <br />
+```
+python main.py
+```
