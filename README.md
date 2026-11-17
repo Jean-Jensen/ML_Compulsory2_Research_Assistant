@@ -35,9 +35,9 @@ $env:GROQ_API_KEY="YOUR_API_KEY_HERE"
 ```
 **Mac**: (once again, untested) <br />
 ```
-export LLM_BASE_URL="https://api.groq.com/openai/v1"
-export LLM_MODEL="groq:qwen/qwen3.8-27b"
-export GROQ_API_KEY="YOUR_API_KEY_HERE"
+LLM_BASE_URL="https://api.groq.com/openai/v1"
+LLM_MODEL="groq:qwen/qwen3.8-27b"
+GROQ_API_KEY="YOUR_API_KEY_HERE"
 ```
 
 ### Step 3: Run program
