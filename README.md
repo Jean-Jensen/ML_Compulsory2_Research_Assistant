@@ -9,7 +9,7 @@ py -3.11 -m venv .venv
 .\.venv\Scripts\Activate.ps1
 ```
 
-On **Mac**, do these I guess (idk, I use windows):  <br />
+On **Mac**: <br />
 ```
 python3 -m venv .venv
 source .venv/bin/activate
@@ -33,7 +33,7 @@ $env:LLM_BASE_URL="https://api.groq.com/openai/v1"
 $env:LLM_MODEL="groq:qwen/qwen3.8-27b"
 $env:GROQ_API_KEY="YOUR_API_KEY_HERE"
 ```
-**Mac**: (once again, untested) <br />
+**Mac**: <br />
 ```
 export LLM_BASE_URL="https://api.groq.com/openai/v1"
 export LLM_MODEL="groq:qwen/qwen3.8-27b"
